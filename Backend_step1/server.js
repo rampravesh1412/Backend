@@ -12,6 +12,10 @@ app.get("/", (req, res) => {
   res.send("hello kese ho saare bhai");
 });
 
+app.get("/sayhello" , (req , res) => {
+  res.send("Hello !");
+})
+
 app.get("/about", (req, res) => {
   res.send("my ek about hu pagal kahika");
 });
